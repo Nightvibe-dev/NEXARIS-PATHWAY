@@ -1,1 +1,64 @@
+[
+  {
+    "id": "creativo",
+    "name": "Perfil Creativo",
+    "description": "Personas con imaginación, interés por crear, diseñar y expresar ideas.",
+    "strengths": [
+      "Creatividad",
+      "Diseño",
+      "Innovación"
+    ],
+    "careers": [
+      "Diseño UX/UI",
+      "Animación Digital",
+      "Arquitectura"
+    ]
+  },
 
+  {
+    "id": "tecnologico",
+    "name": "Perfil Tecnológico",
+    "description": "Personas interesadas en sistemas, programación y solución de problemas.",
+    "strengths": [
+      "Lógica",
+      "Análisis",
+      "Programación"
+    ],
+    "careers": [
+      "Desarrollo de Software",
+      "Ingeniería de Sistemas"
+    ]
+  },
+
+  {
+    "id": "social",
+    "name": "Perfil Social",
+    "description": "Personas que disfrutan ayudar, comunicar y trabajar con otros.",
+    "strengths": [
+      "Comunicación",
+      "Empatía",
+      "Liderazgo"
+    ],
+    "careers": [
+      "Psicología",
+      "Educación",
+      "Trabajo Social"
+    ]
+  },
+
+  {
+    "id": "cientifico",
+    "name": "Perfil Científico",
+    "description": "Personas curiosas que disfrutan investigar y comprender fenómenos.",
+    "strengths": [
+      "Investigación",
+      "Observación",
+      "Análisis"
+    ],
+    "careers": [
+      "Medicina",
+      "Biología",
+      "Ingenierías"
+    ]
+  }
+]
