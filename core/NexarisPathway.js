@@ -1,30 +1,42 @@
+const Analyzer = require("./analyzer");
+const Recommender = require("./recommender");
+
+
 class NexarisPathway {
 
-    constructor() {
+    constructor(profiles){
+
         this.name = "NEXARIS PATHWAY";
         this.version = "1.0";
         this.role = "Orientadora vocacional";
+
+        this.analyzer = new Analyzer();
+        this.recommender = new Recommender(profiles);
+
     }
 
 
-    greet() {
-        return "Hola, soy NEXARIS PATHWAY. Estoy aquí para ayudarte a descubrir tus intereses y posibles caminos profesionales.";
+    processAnswers(answers){
+
+        answers.forEach(answer => {
+            this.analyzer.addProfile(answer);
+        });
+
+
+        const result = this.analyzer.getResult();
+
+
+        return this.recommender.recommend(
+            result.profile
+        );
+
     }
 
 
-    analyzeInterest(input) {
+    greet(){
 
-        const message = input.toLowerCase();
+        return "Hola, soy NEXARIS PATHWAY. Te acompañaré a descubrir tus intereses y posibles caminos profesionales.";
 
-        if(message.includes("dibujar") || message.includes("arte")) {
-            return "Tu perfil muestra afinidad con áreas creativas como Diseño, Animación o Arquitectura.";
-        }
-
-        if(message.includes("programar") || message.includes("tecnología")) {
-            return "Tu perfil muestra afinidad con áreas tecnológicas como Desarrollo de Software o Ingeniería.";
-        }
-
-        return "Necesito conocer más sobre tus intereses para encontrar una ruta adecuada.";
     }
 
 }
