@@ -1,1 +1,45 @@
+[
+  {
+    "name": "Diseño UX/UI",
+    "area": "Creatividad y Tecnología",
+    "skills": [
+      "diseño",
+      "creatividad",
+      "tecnología"
+    ],
+    "description": "Diseña experiencias digitales, aplicaciones y páginas web centradas en los usuarios."
+  },
 
+  {
+    "name": "Desarrollo de Software",
+    "area": "Tecnología",
+    "skills": [
+      "programación",
+      "lógica",
+      "tecnología"
+    ],
+    "description": "Crea aplicaciones, sistemas y soluciones digitales mediante programación."
+  },
+
+  {
+    "name": "Arquitectura",
+    "area": "Diseño y Construcción",
+    "skills": [
+      "dibujo",
+      "creatividad",
+      "espacio"
+    ],
+    "description": "Combina diseño, creatividad y conocimientos técnicos para crear espacios."
+  },
+
+  {
+    "name": "Medicina",
+    "area": "Ciencias de la Salud",
+    "skills": [
+      "ayudar",
+      "ciencia",
+      "investigación"
+    ],
+    "description": "Profesión enfocada en la salud, diagnóstico y tratamiento de personas."
+  }
+]
