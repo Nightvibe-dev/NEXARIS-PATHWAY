@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué actividad disfrutas más?",
+    "options": [
+      {
+        "text": "Crear diseños, dibujar o imaginar ideas nuevas",
+        "profile": "creativo"
+      },
+      {
+        "text": "Resolver problemas usando tecnología",
+        "profile": "tecnologico"
+      },
+      {
+        "text": "Ayudar y trabajar con personas",
+        "profile": "social"
+      },
+      {
+        "text": "Investigar y descubrir cómo funcionan las cosas",
+        "profile": "cientifico"
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "question": "¿Qué tipo de proyectos te llaman más la atención?",
+    "options": [
+      {
+        "text": "Crear contenido visual o diseños",
+        "profile": "creativo"
+      },
+      {
+        "text": "Crear aplicaciones o sistemas",
+        "profile": "tecnologico"
+      },
+      {
+        "text": "Organizar equipos y ayudar a otros",
+        "profile": "social"
+      },
+      {
+        "text": "Realizar experimentos e investigaciones",
+        "profile": "cientifico"
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "question": "¿Qué habilidad consideras más fuerte en ti?",
+    "options": [
+      {
+        "text": "Imaginación y creatividad",
+        "profile": "creativo"
+      },
+      {
+        "text": "Lógica y análisis",
+        "profile": "tecnologico"
+      },
+      {
+        "text": "Comunicación y empatía",
+        "profile": "social"
+      },
+      {
+        "text": "Observación y curiosidad",
+        "profile": "cientifico"
+      }
+    ]
+  }
+]
